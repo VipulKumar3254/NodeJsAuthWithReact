@@ -1,0 +1,124 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.formContainer{
+    background-color:#4E59AD;
+    height: 100svh;
+
+    padding:23px;  
+    display: flex;
+    justify-content: center;
+}
+.formContainer>div{
+    max-width: 30%;
+    min-width: 450px;
+
+}
+.formContainer>div>form 
+{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+    border-radius: 4px;
+    background-color: white;
+    padding:  0 40px;
+   
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70svh;
+    background-color: #fff;
+}
+
+.formContainer > div> form> input,select {
+    height: 33px;
+    border:0px solid rgb(216, 228, 230);
+    border-width: thin;
+    margin: 5px;
+    color: rgb(102, 100, 100);
+    padding:8px 9px ;
+    font-size: 14px;
+    width: 100%;
+
+}
+form> h2{
+    align-self: start;
+    color: #574b4b;
+    font-weight: 400; 
+    margin-bottom: 13px;
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif;   */ 
+ }
+.submit {
+     background-color:#32C5D2;
+     color: white !important;
+    font-size: 14px;
+    border:12px solid pink;
+}  
+.login{
+    align-self: end ;
+    margin-top: 4px;
+    color: #5a5858;
+    cursor: pointer;
+}
+.google{
+
+    background-color:#DD4B39;
+    height: 35px;
+    color: white;
+    width: 100%;
+    display: flex;
+    /* margin-bottom: 16px; */
+    cursor: pointer;
+    box-sizing: border-box;
+    
+
+}
+.line
+{
+    margin-left: 12px;
+    background:green;
+    border-left: 1px solid black;
+}
+.google>p{
+    box-sizing: border-box;
+    padding-top: 6px;
+    width:90%;
+    text-align:center;
+   
+   
+}
+
+
+/* code for the close button  */
+.close {
+    position: absolute;
+    right: 8px;
+    top: 12px;
+    margin-top: 12px;
+    width: 32px;
+    height: 32px;
+    opacity: 1;
+  }
+  .close:hover {
+    opacity: 1;
+  }
+  .close:before, .close:after {
+    position: absolute;
+    left: 15px;
+    content: ' ';
+    height: 16px;
+    width:4px;
+    background-color: #6F6F6F;
+  }
+  .close:before {
+    transform: rotate(45deg);
+  }
+  .close:after {
+    transform: rotate(-45deg);
+  }
+  
